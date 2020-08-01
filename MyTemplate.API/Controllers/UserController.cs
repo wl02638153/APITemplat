@@ -25,6 +25,7 @@ namespace MyTemplate.API.Controllers
         [HttpGet]
         public async Task<ActionResult> GetUserList()
         {
+            //
             return Ok(await _userService.GetAll());
         }
     }
