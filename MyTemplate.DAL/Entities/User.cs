@@ -10,9 +10,6 @@ namespace MyTemplate.DAL.Entities
     public class User: BaseEntity
     {
         [Required]
-        public Guid rowguid { get; set; }
-
-        [Required]
         [StringLength(100)]
         public string Name { get; set; }
 

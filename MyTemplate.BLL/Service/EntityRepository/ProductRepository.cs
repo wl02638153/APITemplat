@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace MyTemplate.BLL.Service.EntityRepository
 {
+
     public class ProductRepository: IBaseRepository<Product>
     {
         private readonly MyTemplateDbContext _context;
@@ -39,6 +40,11 @@ namespace MyTemplate.BLL.Service.EntityRepository
         }
 
         public Task Update(Product entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<List<Product>> IBaseRepository<Product>.GetAll()
         {
             throw new NotImplementedException();
         }
