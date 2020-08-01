@@ -22,7 +22,6 @@
   <ItemGroup>
     <ProjectReference Include="..\MyTemplate.BLL\MyTemplate.BLL.csproj" />
     <ProjectReference Include="..\MyTemplate.DAL\MyTemplate.DAL.csproj" />
-    <ProjectReference Include="..\MyTemplate.Web\MyTemplate.Web.csproj" />
   </ItemGroup>
 
 
